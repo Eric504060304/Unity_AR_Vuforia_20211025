@@ -24,7 +24,10 @@ namespace Eric
         /// <param name="vbb">µêÀÀ«ö¶sµù¥U¥Îªº°Ñ¼Æ</param>
         void PlayBiteAnimation(VirtualButtonBehaviour vbb)
         {
-
+            if (vbb.VirtualButtonName == "¨³²rÀs«r")
+            {
+                aniTarget.SetTrigger("Ä²µo«r");
+            }
         }
     }
 }
